@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 100px;
+}
+.table th,
+.table td{
+    padding: 12px;
+}
+.table th{
+    background: white;
+    color: rgb(40, 38, 38);
+}
+/* odd = har toq child */
+/* even = har juft child */
+.table tbody tr:nth-child(odd){
+    background-color: rgb(232, 227, 227);
+}
+.table tbody tr:nth-child(1) td:nth-child(6){
+    background-color: green;
+    color: white;
+    width: 0px;
+}
+.table tbody tr:nth-child(2) td:nth-child(6){
+    background-color: yellow;
+    color: black;
+}
+.table tbody tr:nth-child(3) td:nth-child(6){
+    background-color: red;
+    color: white;
+}
+.table tbody tr:nth-child(4) td:nth-child(6){
+    background-color: green;
+    color: white;
+}
+.table tbody tr:nth-child(5) td:nth-child(6){
+    background-color: red;
+    color: white;
+}
+.table tbody tr:nth-child(6) td:nth-child(6){
+    background-color: yellow;
+    color: black;
+}
+.table tbody tr:nth-child(7) td:nth-child(6){
+    background-color: yellow;
+    color: black;
+}
+.table tbody tr:nth-child(8) td:nth-child(6){
+    background-color: green;
+    color: white;
+}
